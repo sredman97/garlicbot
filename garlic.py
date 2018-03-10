@@ -20,7 +20,7 @@ class Garlic():
     async def grlc(self, ctx):
         """Garlicoin-based commands"""
         if ctx.invoked_subcommand is None:
-            bot.send_message(ctx.message.channel, \
+            await self.bot.send_message(ctx.message.channel, \
                     'Acceptable commands: rank, pbtc, pch, pc24 \
                      use !help for more options')
 
