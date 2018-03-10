@@ -7,7 +7,7 @@ import json
 import requests
 
 
-startup_extensions = ["garlic"]
+startup_extensions = ["garlic", "meme"]
 
 bot = commands.Bot(command_prefix='!')
 test = True
