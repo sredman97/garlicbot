@@ -37,7 +37,7 @@ class Garlic():
     async def pc24(self, ctx):
         """Displays garlicoin's percent change in the last 24 hours"""
         pc24 = await self.fetch_garlic('percent_change_24h')
-        await self.bot.send_message(ctx.message.channel, pchg)
+        await self.bot.send_message(ctx.message.channel, pc24)
 
 def setup(bot):
     bot.add_cog(Garlic(bot))
